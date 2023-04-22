@@ -35,9 +35,9 @@ void merge_sort(std::vector<int>& vec, int begin, int end) {
 }
 
 int main() {
-  int n = 2e5;
+  int n = 2e6;
   std::vector<int> vec(n);
-#pragma omp parallel for
+// #pragma omp parallel for
   for (int i=0; i<n; i++) {
     vec[i] = rand();// % (10 * n);
     // printf("%d ",vec[i]);
