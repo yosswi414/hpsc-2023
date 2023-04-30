@@ -27,3 +27,6 @@
 	mpicxx 12_non_blocking.cpp
 13_one_sided: 13_one_sided.cpp
 	mpicxx 13_one_sided.cpp
+14_distributed_window: 14_distributed_window.cpp
+	mpicxx 14_distributed_window.cpp
+
