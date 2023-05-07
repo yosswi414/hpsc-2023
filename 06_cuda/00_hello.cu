@@ -6,6 +6,8 @@ __global__ void print(void) {
 
 int main() {
   printf("Hello CPU\n");
-  print<<<1,1>>>();
+  print<<<2,3>>>();
+  printf("---GPU BEGIN---\n");
   cudaDeviceSynchronize();
+  printf("---GPU  END ---\n");
 }
