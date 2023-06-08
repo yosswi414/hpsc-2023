@@ -13,4 +13,4 @@ int main() {
   }
   for(int i=0; i<N; i++)
     printf("%d %g\n",i,b[i]);
-}
+}  
